@@ -235,6 +235,12 @@ in
       key = "<Esc>";
       action = "<cmd>nohlsearch<CR>";
     }
+
+    {
+      mode = "n";
+      key = "<leader>p";
+      action = "<cmd>Ex<CR>";
+    }
     # Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
     # for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
     # is not what someone will guess without a bit more experience.
