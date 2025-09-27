@@ -44,6 +44,10 @@
     enable = true;
   };
 
+  plugins.dap-python = {
+    enable = true;
+  };
+
   # https://nix-community.github.io/nixvim/keymaps/index.html
   keymaps = [
     # Basic debugging keymaps, feel free to change to your liking!
