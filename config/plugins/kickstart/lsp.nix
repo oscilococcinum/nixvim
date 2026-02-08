@@ -75,6 +75,18 @@
       # };
       pyright = {
         enable = true;
+        settings = {
+          python = {
+            analysis = {
+              typeCheckingMode = "strict";
+              diagnosticSeverityOverrides = {
+                reportUnusedImport = "error";
+                reportUnusedVariable = "error";
+                reportMissingTypeStubs = "error";
+              };
+            };
+          };
+        };
       };
       # rust_analyzer = {
       #   enable = true;
