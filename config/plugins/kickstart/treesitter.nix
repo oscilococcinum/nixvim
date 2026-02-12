@@ -64,6 +64,7 @@
       # astro
       # nginx
       # svelte
+      nim
     ];
 
     settings = {

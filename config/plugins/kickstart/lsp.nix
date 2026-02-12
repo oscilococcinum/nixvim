@@ -125,6 +125,10 @@
           # };
         };
       };
+      nim_langserver = {
+        enable = true;
+        packageFallback = true;
+      };
     };
 
     keymaps = {
