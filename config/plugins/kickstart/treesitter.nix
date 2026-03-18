@@ -65,6 +65,7 @@
       # nginx
       # svelte
       nim
+      python
     ];
 
     settings = {
